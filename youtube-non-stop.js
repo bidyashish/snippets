@@ -6,11 +6,11 @@ As  Youtube.com has policy to ask "Video paused. Continue watching?" and Stop an
 
 This code is setup interval to play non-stop videos in Youtube.com
 
-1. Open console (Ctrl + shift + I) -> go to console tab (esc press)
+1. Open console (Ctrl + shift + I) -> go to console tab (press esc)
+2. paste the below code in console
 
 SetInterval has 10 milliseconds time interval
 
-paste the below code in console
 
 
 Bidyashish Kumar

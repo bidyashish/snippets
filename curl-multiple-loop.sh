@@ -6,4 +6,4 @@
 
 # Paste any code after "do" to repeat action
 
-for((i=1;i<100;i++)) ; do curl -v "https://github.com" ; done
+for ((i = 1; i < 100; i++)); do curl -v "https://github.com"; done

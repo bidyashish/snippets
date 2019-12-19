@@ -9,14 +9,13 @@ PROXY_USER=$(whoami)
 PROXY_PASS=password
 
 # PROXY SETTINGS
-ALL_PROXY="http://${PROXY_USER}:${PROXY_PASS}@192.168.1.100:8080";
+ALL_PROXY="http://${PROXY_USER}:${PROXY_PASS}@192.168.1.100:8080"
 
 # NPM PROXY
 export NPM_CONFIG_PROXY=$ALL_PROXY
 export NPM_CONFIG_HTTPS_PROXY=$ALL_PROXY
 
-
-# Git Proxy 
+# Git Proxy
 
 git config --global http.proxy $ALL_PROXY
 
